@@ -1,21 +1,13 @@
-#####1、其他
-        预习课程：http://www.tmooc.cn/web/login.html 账号：web1702n_pm@tedu.cn 密码：PM2017tarena
-        下载作业网址：code.tarena.com.cn 用户名：tarenacode 密码：code_2013 WEBCode/wfd1702/AM/PM/ALL
-        web服务器=Apache
+###1、课程相关网址
         PHP100自学视频：https://pan.baidu.com/share/link?shareid=3623474815&uk=171029850
         xampp开发手册,官方下载地址：https://www.apachefriends.org
         normallize.css 标准化CSS网站
         animate.css动画网站
         bootstrap.css一个全面的样式库
-        jquery.com   jquery官方网站
-        201801级：web1711n_pm@tedu.cn       密码：PM2017tarena
         zhangdong@tedu.cn  张东
-        **创建对象的方法
-        **三种循环的区别
-        **递归
         cocos3dx游戏开发网站
         polyfill网站：developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-        图标获取：阿里巴巴iconfont（现在推荐）font awesome  （以后要学）
+        图标获取：阿里巴巴iconfont（现在推荐）font awesome  
         图片素材：千图网，懒人图库，站酷
         https://github.com/liyxPro/Front-end-tutorial web前端资源汇总
         http://www.cnblogs.com/  博客园
@@ -28,11 +20,8 @@
         图片素材：千图网，懒人图库，站酷
         https://github.com/liyxPro/Front-end-tutorial web前端资源汇总
         0基础建站 蝉知网
-        成亮：105207974
-     
-        cc1990.applinzi.com/insulation/index.html
-     
-     2、面试题：
+        程序员必做50道题&常见js特效40例
+###2、面试题：
          1、用户在浏览器中输入www.taobao.com直到看到页面之间发生了什么？
              1.操作系统访问网络上的DNS服务器，把域名转换成IP地址
              2.浏览器发起HTTP请求消息
@@ -49,8 +38,10 @@
                      ASP.NET=HTML+C++:易用，适合windows平台，缺点花钱----贵的家用轿车
                      Node.js=HTML+ES(JS):性能好，适合于服务器端IO（input和output）密集型项目(微博，微信),数据读取和保存，
                                          不适合CPU密集型项目（大量计算，比如加密和解密，滴滴打车，天气预报，美团，适合用java,c++）----超级跑车，对跑道有要求
-        PS:
-             C+d取消选框  C+加号/减号:放大/缩小  空格变小手 ctrl+选取工具可以选中当前图形的图层
+###PS操作:
+             C+d取消选框  
+             C+加号/减号:放大/缩小  
+             空格变小手 ctrl+选取工具可以选中当前图形的图层
                    多张图片拼成一张，减少对服务器的请求次数，一次请求用background-position
                    经常变化的图适合做成img
                    不分产品，固定的小图标适合用拼成的图png
@@ -58,9 +49,9 @@
                    1.根据想看图像大小，创建等比区域
                    2，设置背景图 以及 位置，来实现图像的显示
                    这种多图拼成的图俗称css sprites  雪碧图  精灵图
-        Editplus:
+###Editplus操作:
              C+/(在CSS中快速注释) Tab(敲好元素字母后按tab快速成元素)
-        MS：
+###MS快捷键：
              windows+d回到桌面
              F5刷新网页
              ctrl+b运行网页
@@ -72,7 +63,7 @@
              windows+e我的电脑
              文件夹页面点F10 可出现工具栏  显示隐藏文件名和后缀
              ctrl+shift+delete清楚浏览器缓存=====ctrl+H
-        webstorm：
+###webstorm快捷键：
              Alt+ left/right 切换代码视图
              alt+F2浏览网页   file里面settings可以改字体  ctrl+F查询
              ctrl+alt+下箭头可以多个复制  alt+1左侧栏隐藏
@@ -122,7 +113,7 @@
              选中文本，按Alt+F3 ，逐个往下查找相同文本，并高亮显示。
              Ctrl+Up/Down 光标跳转到第一行或最后一行下
              Ctrl+B 快速打开光标处的类或方法
-        *如何自学一门新编程语言
+###如何自学一门新编程语言
         		1:了解背景:历史，现状，发展，特点
         		  (应用领域!!!)
         		2:搭建环境:写helloworld
@@ -134,23 +125,23 @@
         		8:函数对象
         		9:常用函数库，类库，框架
         		10:实用项目
-        学习编程三步：
-             1.理解思路/机器式的思维方式    程序员必做50道题&常见js特效40例
+###学习编程三步：
+             1.理解思路/机器式的思维方式    
              2.仿写代码
              3.反复默写
-        *如何把静态网页变为动态网页
+###如何把静态网页变为动态网页
           方法1：在HTML中混编入PHP语句
         	    (1)前端人员编写.html
-          	(2)后台人员把.html重名为.php，穿插入PHP语句
+          	    (2)后台人员把.html重名为.php，穿插入PHP语句
                  优点：一次请求，就可以获取到所有的动态数据
                  不足：不便于分工协作，代码的可维护性差
           方法2：使用AJAX在静态页面加载完成再异步请求动态数据
-             (1)前端人员编写.html（没有动态数据）；同时后台人员编写.php（没有任何HTML/CSS/JS——返回纯JSON）
-             (2)客户端请求.html，等静态页面加载完成，再异步请求.php获取动态数据
+                (1)前端人员编写.html（没有动态数据）；同时后台人员编写.php（没有任何HTML/CSS/JS——返回纯JSON）
+                (2)客户端请求.html，等静态页面加载完成，再异步请求.php获取动态数据
                  好处：便于分工协作，前后台彻底分离，代码的可维护性高！
                  不足：静态HTML结构和动态数据需要分多次请求
-     ===================================================HTML=================================================================
-        &times;关闭按钮   空格&nbsp; &lt+&gt <>  &copy @   &yen; 人民币  &laquo;《  &raquo;》
+###HTML
+     &times;关闭按钮   空格&nbsp; &lt+&gt <>  &copy @   &yen; 人民币  &laquo;《  &raquo;》
      1、结构标签：header nav section aside article footer
      2、可以设置为0/none的元素：border outline text-decoration
      3、sup上标 sub下标
@@ -185,7 +176,7 @@
      15、只需要输名称，不需输数值
         disabled readonly checked reversed multiple selected
      16、列表：
-         有序列表ol:1,A,a,I,i
+         有序列表ol:1,A,a,I,i   
          无序列表ul:disc circle squre none(list-style)
          定义列表（图文混排）
          <dl>
@@ -218,15 +209,16 @@
      	          </fieldset>
      19.新表单：<input type="email/search/url/tel/number（用户年龄）/range（年龄范围）/color/date/week/month">
                 其中number和range，有min/max/step属性，range更有value属性（初始值）
-     ====================================================CSS初级================================================================
-     1.css(cascading style sheets)样式特征：继承性，层叠性，优先级（内联样式最高），调整显示优先级（样式属性：值 !important）
+###CSS初级
+
+####1.css(cascading style sheets)样式特征：继承性，层叠性，优先级（内联样式最高），调整显示优先级（样式属性：值 !important）
              ex:background:blue !important;
          优先级顺序：
                  浏览器的默认设置    低
                  内部样式和外部样式  中（就近原则）
                  内联样式            高
-     2.选择器：
-        1.基础选择器:通用选择器  *{样式声明}
+####2.选择器：
+#####1.基础选择器:通用选择器  *{样式声明}
                      元素选择器  div{}
                      类选择器   （多类选择器 <p class="类名1 类名2 类名3"></p>
                                    分类选择器  元素选择器.类选择器名称{样式声明}）类名不可以包含特殊字符，除“-”“_”外
@@ -273,7 +265,7 @@
                                                         属性：{content:“”/‘’;} 图片url()
                                                             ex:  p:after{content:"疑是地上霜";}
                                                                  <p>床前明月光(:after)</p>
-        2.复杂选择器
+#####2.复杂选择器
               1.兄弟选择器：平级元素，只能向后找兄弟，不能向前找兄弟
                     相邻兄弟选择器：选择器1+选择器2{}(选择器1旁边的兄弟选择器2有影响)  P+P{}---(除第一个p之后的所有平级p都有影响)
                     通用兄弟选择器：选择器1~选择器2 ex:#d1~div(除d1以外，后面所有平级div都受影响)
@@ -293,37 +285,37 @@
                     7.[attr *=value]包含...字符
                          ex:<div class="col-md-12"></div>...<div class="col-sm-12"></div>----->   div[class*=md]{}
                     8.[attr $=value]以...作为结束
-     3.选择器优先级：权值：元素选择器1
+####3.选择器优先级：权值：元素选择器1
                             类选择器10
                             伪类选择器10
                             ID选择器100
                             内联样式1000
-     4.尺寸单位：%(相对单位)
+####4.尺寸单位：%(相对单位)
                  in(英寸)
                  cm,mm,pt(1磅=1/72in，表文字大小)
                  px(像素)
                  em(相对于父元素乘以倍数)
                  rem(相对根元素字体大小乘以倍数)
-     5.颜色单位：英文单词blue,red,yellow
+####5.颜色单位：英文单词blue,red,yellow
                   rgb(r,g,b)-----r,g,b:0-255
                   rgb(r%,g%,b%)
                   rgba(r,g,b,alpha)------alpha：透明度，0-1的小树，值越大越不透明，趋近于0更透明
                   #rrggbb-----由0-9和A-F的数组或字母组成，#000000-黑色，#ffffff-白色，#eeeeee-灰色，#1fab24,#11ffaa
                   #rgb-----#fff
-     6.尺寸：width/min-width/max-width      height/max-height/min-height
+####6.尺寸：width/min-width/max-width      height/max-height/min-height
        溢出：overflow/overflow-x/overflow-y
              取值：visible(内容可见，默认值）/hidden（隐藏溢出部分）/scroll（滚动条）/auto(溢出时显示滚动条，未溢出不显示)
-     7.边框：border:width style(solid/dotted/dashed) color;        border:0(border:none);
+####7.边框：border:width style(solid/dotted/dashed) color;        border:0(border:none);
        使用：border-方向(top/bottom/left/right)：width style color;
               border-属性:值；border-width/style/color;
               border-方向-属性:值；
        边框倒角：border-radius:px/%;
        边框阴影：box-shadow:h-shadow v-shadow blur(模糊距离) spread(阴影大小) color inset(外阴影改内阴影);
                  ex:box-shadow:10px 10px 30px 10px green;
-     8.轮廓：outline:width style color;(修改input激活时的轮廓)
+####8.轮廓：outline:width style color;(修改input激活时的轮廓)
              outline-width:/outline-style:/outline-color:
              outline:none/0;
-     9.框模型： 1.外边距：margin-top/bottom/left/right:(单位：px/%(相对于父元素的百分比)/auto（上下无效，左右有效）/负数移动)；
+####9.框模型： 1.外边距：margin-top/bottom/left/right:(单位：px/%(相对于父元素的百分比)/auto（上下无效，左右有效）/负数移动)；
                      简洁写法：margin:v1 v2 v3 v4;/v1 v2(左右) v3;/v1 v2;
                      特殊效果：1.当两个垂直外边距相遇时，他们将合并成一个外边距，距离以数据大的值为主
                             行内元素设置垂直外边距无效(img除外)
@@ -346,7 +338,7 @@
                 2.内边距：padding-top/right/bottom/left:(单位：px/%/auto（上下无效，左右有效）)；
                   简洁写法：padding:v1 v2 v3 v4;/v1 v2(左右) v3;/v1 v2;
                 ******box-sizing:content-box(默认);/border-box;
-     10.背景：background-color：red;
+####10.背景：background-color：red;
               background-image：url("");
               background-repeat:repeat（默认）/no-repeat/repeate-x/repeat-y;
               background-size:width height/width% height%(*相对于元素本身宽高的百分比)/
@@ -357,7 +349,7 @@
               background:color url() repeat attachment position;(简写)以上属性值可以按需求去写，不需要的可以省略，省略采用默认值
               background:red;
               background:url() no-repeat right center;（background:url repeat position;）给3个值
-     11.渐变：
+####11.渐变：
         线性渐变：background-image:linear-gradient(angle方向或角度：to top=0deg/to right=90deg/to bottom=180deg/to left=270deg/0deg~360deg,
                                                color-point1(颜色值 位置值),
                                                color-point2,...)
@@ -379,7 +371,7 @@
                     （-moz-animation:值；）...
                      如果浏览器不支持属性值，前缀则加载属性值前面：
                      ex:background-image:-moz/webkit/o/ms-linear-gradient();...
-     12.字体属性
+####12.字体属性
         如果字体包含中文，特殊符号，最好用“”或者‘’引起来
         font-size:px（像素）,pt（磅）,em(父元素倍数),rem(字体倍数)
         网络中字体默认16px 英文8px*16px
@@ -388,7 +380,7 @@
         font-style(斜体）：normal/italic;
         小型大写字符：font-variant:normal/small-caps;
        字体简写方式：font:style variant weight size family;(使用简写模式，family的值必须要设置，否则无效)
-     13.文本属性
+####13.文本属性
         color：(颜色)
         text-align:left/center/right/justify(两端对齐);(文本排列)
         text-decoration:none/underline/overline(上划线)/line-through--><s></s>;
@@ -397,7 +389,7 @@
         text-shadow:h-shadow v-shadow blur color;(文本阴影);(同box-shadow)
         文字发光：text-shadow:0 0 1px red;
         ex:font:12px/24px"微软雅黑"（12px是字体大小，24px是行高）
-     14.表格属性
+####14.表格属性
         padding（边距）表格中margin无效
         width height()
         font-*,text-*（文本格式化）.
@@ -409,7 +401,7 @@
         border-spacing(边框边距):一个值（水平垂直相同）/二个值(水平 垂直);注意：此属性仅在分离模式（border-collapse:seperate;）下使用------设在table属性上的
         caption-side(标题位置):top（位于表格上）/bottom（位于表格下）;
         table-layout（显示规则）:auto(宽度由内容决定)/fixed（设定宽度）；
-     15.定位-浮动
+####15.定位-浮动
         普通流定位（默认定位）
         浮动定位：脱离文档流，不占据页面空间，后面未浮动元素会上前补位，浮动元素会停靠在父元素的左边或右边，或其他平级的已浮动元素的边缘上，
                   浮动只能在当前行内浮动，解决了块级元素在一行内显示的问题。
@@ -425,7 +417,7 @@
                                                    3.设置父元素overflow属性为hidden或auto（弊端：如果有内容要溢出显示，如弹出菜单，也一同被隐藏了）
                                                    4.父元素中追加一个空块级元素，并设置其clear为both（在网页中多个元素而已）
                                                    5.解决方案4的简便写法，CSS3高级解决:.clear(父元素):after{content:"";display:block;clear:both;}
-     16.显示
+####16.显示
         1.显示/隐藏
              display:none(让生成的元素没框，即隐藏页面元素并脱离文档流)/block(生成块)/inline（生成行内元素）/inline-block(生成行内块)/table(生成像table一样的元素)
              visibility(规定元素是否可见):visible(可见)/hidden（隐藏，未脱离文档流）/collapse（动态删除表格一行或一列，不影响表格整体布局）
@@ -438,16 +430,16 @@
              vertical-align使用场合table(td)/行内块元素/img
         4.光标：
              cursor:default(默认)/pointer(小手)/crosshair(+)/text(I)/wait(等待)/help(帮助)
-     17.列表
+####17.列表
         list-style-type(列表类型):none/disc/circle/squre.;
         list-style-image(列表项图像):url();
         list-style-position(列表项位置):outside(内边距里，li外)/inside（li里面）;
         list-style:type url position;
         最常用：list-style:none;
         使用场合：纵向排列或横向列表
-     18.display:block/inline-block;(有把元素隐藏后再显示功能)（visibility:hidden;隐藏）
+####18.display:block/inline-block;(有把元素隐藏后再显示功能)（visibility:hidden;隐藏）
         inline显示隐藏后的行内元素
-     19.定位属性 position:static(静态定位，默认)/relative(相对定位)/absolute(绝对定位)/fixed(固定定位)；
+####19.定位属性 position:static(静态定位，默认)/relative(相对定位)/absolute(绝对定位)/fixed(固定定位)；
                  注意：除static以外，其他的定位方式都称之为“已定位元素”
         偏移属性：只有“已定位元素”才能使用，top(取值为正，下移；取值为负，上移)/bottom(上为正，下为负)/left(右为正，左为负)
                                               /right(左为正，右为负)/*框里都为正，框外为负*/
@@ -470,13 +462,14 @@
                   特点：固定定位元素永远都是相对于body实现定位
                         固定定位元素会脱离文档流
                         固定定位元素会变成块级元素
-     20.隐藏的4种方法：
+####20.隐藏的4种方法：
            <div style="display: none;">DISPLAY: NONE</div>   可选择
            <p style="visibility:hidden;">VISIBILITY: HIDDEN</p>  不可选择
            <span style="opacity: 0;">OPACITY: 0;</span>  不可选择
            <input type="hidden" name="id" value="123"/>  可选择
-     ===================================================css高级==============================================================
-     1.弹性布局（flexible box:处理某元素内子元素的排列方式）
+###css高级
+
+####1.弹性布局（flexible box:处理某元素内子元素的排列方式）
           包含：flex container(flex容器),flex item(flex项目),main axsis(主轴),cross axsis(交叉轴),main start(主轴起点),cross start(交叉轴起点)
           注意：子元素的float,clear,vertical-align,text-align会失效
           属性：1.display:flex/inline-flex;    兼容性：display:-webkit-flex;
@@ -504,7 +497,7 @@
                                    (flex-grow,flex-shrink,flex-basis简写)
                            6.align-self:auto/flex-start/flex-end/center/baseline/stretch;
                                    (定义当前元素与其他元素不一样的交叉轴对齐方式，可以覆盖align-items值，默认为auto,即继承父元素的align-items)
-     2.转换
+####2.转换
            转换属性：transform:none(默认值)/一组转换函数（表示一个或多个转换函数，中间用空格分开）;
            转换原点：transform-origin:0px 0px;/0% 0%;/left top;(x和y两个值)(三个值是x,y,z轴)
                      默认原点位置：50% 50%或center center;
@@ -539,7 +532,7 @@
                                         preserve-3d;保留其子元素的3D位置
                   第2步:transform:translateZ(z);正值为前，负值为后，
                         translate3d(x,y,z);
-     3.过渡
+####3.过渡
            1.过渡属性：transition
            transition-property:none/all/propertyName;
             ex:背景颜色变化时，将采用过渡效果呈现
@@ -577,7 +570,7 @@
                  多个过渡值在后面加逗号再写别的过渡值
            5.过渡简写模式：transition:property duration timing-function delay;
               ex:transition:property1 duration1 timing-function1 delay1,property2 duration2;
-     4.动画（animation）
+####4.动画（animation）
                 1.声明动画(为动画起名)：
                   @keyframes 名称{/*声明 若干 关键帧（时间：动作（样式））*/
                   0%/from{/*动画开始时的动作*/}
@@ -615,7 +608,7 @@
                   animation:name duration timing-function delay iteration-count direction;
                   ex:animation:change 3s linear 1s 3 alternate;
                 ***********加载时就执行动画，在元素声明里调用；如果移入时调用，在hover调用
-     5.CSS Hack(IE浏览器兼容):针对不同的浏览器编写不同的属性
+####5.CSS Hack(IE浏览器兼容):针对不同的浏览器编写不同的属性
            1.浏览器浏览模式：
                          标准模式：完全按照W3C的标准显示网页
                          准标准模式：支持标准，同时向前兼容非标准
@@ -638,8 +631,9 @@
                                     5.！判断当前浏览器是否是非指定版本浏览器
                                     6.省略条件   判断当前浏览器是否是指定版本浏览器
                                        <!--[if IE 6]>只在IE6中执行<![endif]-->
-     6.css代码优化
-     =============================================javascript初级=================================================================
+####6.css代码优化
+###javascript初级
+
      将十进制数转二进制: n.toString(2)
      每个汉字占2字节
      查看一个字的unicode号: str.charCodeAt();
@@ -651,7 +645,7 @@
      bool: true->1  false->0
      模运算判断：能否整除，奇数，偶数，闰年
      按指定位数四舍五入: n.toFixed(2)
-     一、Javascript基础知识：
+####一、Javascript基础知识：
          1、javascript使用场景：数据计算，表单验证，动画效果
          2、NETScape:网景
          3、javascript祖师爷：布兰登艾奇
@@ -684,15 +678,15 @@
                          操作：win+R调出窗口控制台
                          运行：1.交互模式：node 回车（交互模式自带输出打印功能，不用写console.log()）；
                          3.NodeJs（版本8.9.1LTS--long term support ）与JS区别：JS运行在客户端，NodeJs运行在服务器端的V8引擎
-     三、基本语法规范:
-     	1、程序: 3步: 1.输入，2.处理，3.输出
+####二、基本语法规范:
+#####1、程序: 3步: 1.输入，2.处理，3.输出
      		1. 输入: 向网页中输入一个值	prompt("提示")
      		2. 输出: 向页面中输出: document.write("...");
                       向控制台输出: console.log("...");
                       弹出提示框: alert("...")
                       对话框缺点: 1. 样式不可修改
                                   2. 会阻断程序继续执行以及用户操作
-     	2. 变量:
+#####2. 变量:
      		什么是变量: 内存中存储一个数据的存储空间，再起一个名字
      		何时: 只要反复使用的数据，都要先保存在变量中，再反复使用变量。
      	如何:
@@ -724,7 +718,7 @@
      		取值: 任何情况下，使用变量名，等效于直接使用变量中的值。
      		特殊: 强行从未声明的变量中取值, 报错！
      		 ReferenceError : 要用的东西，没找到
-     	3.常量: 值不允许改变的量
+#####3.常量: 值不允许改变的量
      		何时: 只要一个数据一旦定义，就不允许改变
      		如何:
                  声明: const 常量名=值;
@@ -736,7 +730,7 @@
              普通模式: 不报错，但也不能修改——静默失败
              严格模式: 报错！
              高版本的浏览器，将所有静默失败都升级为错误！
-     	4. 数据类型:数据在内存中的存储结构（2大类）
+#####4. 数据类型:数据在内存中的存储结构（2大类）
      		1. 原始类型: 值直接保存在变量本地的数据类型5种:number  string   boolean   null    undefined
      		2. 引用类型: 值无法保存在变量本地的数据类型
      		   原始类型介绍：
@@ -776,7 +770,7 @@
                      4.null: 空 让程序员手动清空一个变量
                      5.undefined: 空 由程序自动使用，为变量赋初值
              3.*注意：凡是从页面中获取的数据都为string类型，可以使用console.log(typeof n)来检测数据类型-->n为变量。
-         5. 数据类型转换:将不需要的数据类型，转化为需要的数据类型
+#####5. 数据类型转换:将不需要的数据类型，转化为需要的数据类型
              1.js四大特点之一: 弱类型: 3大特点:
                1. 声明变量时，不需要提前指定变量的数据类型
                2. 同一个变量先后可保存不同类型的数据
@@ -814,7 +808,7 @@
                         规则: 只有5个值会被转为false:0,  "",  NaN,  null,  undefined
                              其余都转为true
                         其实, 隐式转为bool时，都是自动调用Boolean(x)
-         6. 运算符和表达式:
+#####6. 运算符和表达式:
              1.程序: 人的想法在计算机中的执行
              2.运算符: 程序中模拟人的想法的特殊符号
              3.表达式: 由数据，变量和运算符组成的完成一项单一任务的语句。
@@ -919,7 +913,7 @@
                      console.log(n);//6
                     提示: 所有表达式都是从左向右依次执行
                          如果前一个表达式修改了变量的值，则会影响后续表达式的执行。
-     3. ***函数:内存中封装一项任务步骤清单的代码段，再起一个名字。
+#####7.函数:内存中封装一项任务步骤清单的代码段，再起一个名字。
          1. 声明: function 函数名(参数列表){
                      函数体;
                      return 返回值;
@@ -1045,7 +1039,7 @@
                     request=decodeURIComponent(request);
                     document.write(request);
      ***eval函数: 执行一段字符串格式的js表达式
-     6.程序三大结构——分支（条件函数）
+#####8.程序三大结构——分支（条件函数）
            1. 一个条件，一件事，只有满足才做，不满足就不做
              如果操作简单: 短路: 条件&&(操作)-----ex:total>=500&&(total*=0.8);
              如果操作复杂: if(条件){操作}
@@ -1109,7 +1103,7 @@
                         default:
                           alert("无效按键!");
                       }
-     7.程序三大结构:——循环（3种）
+#####9.程序三大结构:——循环（3种）
            1.while:-------知道循环次数，选择
                  var 循环变量=初始值;
                  while(循环条件){
@@ -1147,9 +1141,9 @@
          ***让循环中的变量不要泄露到循环外，用let代替var: let声明的变量仅能在{}内使用
              break: 中断并退出当前循环;
              continue: 跳过本轮循环，继续执行下一轮
-     8.创建n个空元素的数组,创建数组时仅知道数组元素个数，暂时不知道内容:
+#####10.创建n个空元素的数组,创建数组时仅知道数组元素个数，暂时不知道内容:
          var arr=new Array(n);
-     9.关于length:
+#####11.关于length:
           1. 获取数组最后一个元素:
              arr[arr.length-1]
           2. 获得倒数第n个元素
@@ -1162,8 +1156,8 @@
              arr.length-=n;
           6. 清空数组
              arr.length=0;
-     10.遍历：for(var i=0;i<arr.length;i++){arr[i]}
-     11.关联数组：1. 先创建空数组: var ym=[];
+#####12.遍历：for(var i=0;i<arr.length;i++){arr[i]}
+#####13.关联数组：1. 先创建空数组: var ym=[];
                 2. 向空数组中添加新元素，要使用自定义的下标名称
                     ym["name"]="杨幂"
              	   ym["math"]=81;
@@ -1175,7 +1169,7 @@
                      key //当前房间号
                      ym[key]//当前元素值
                    }
-     12.数组转字符串2种：
+#####14.数组转字符串2种：
              String(arr): 将arr中每个元素都转为字符串，用逗号连接（给数组拍照, 用于比较操作前后数组是否发生了变化)
              arr.join("连接符"):将arr中每个元素都转为字符串，用自定义的连接符连接元素(使用逗号以外的其它连接符时)
                    使用场合: 1. 把单词拼接为句子:
@@ -1183,7 +1177,7 @@
                                  错误: arr.join() => String(arr) =>逗号连接
                                  正确: arr.join("")
                              3. 动态生成页面元素
-     13.程序三大结构:——顺序
+#####15.程序三大结构:——顺序
         concat:拼接===>强调:（不修改原数组，只返回新数组）
                             var newArr=arr1.concat(值1,值2,arr2,...);
                             2. 可打散数组类型参数为单个数据,再拼接
@@ -1221,7 +1215,7 @@
                  开头入栈: arr.unshift(值)
                    强调: 开头入栈后的元素顺序和结尾入栈后的元素顺序是相反的。
                  开头出栈: var first=arr.shift();
-     14.升序和降序
+#####16.升序和降序
          最简单的数字升序比较器:
             function cmp(a,b){return a-b;}
                如何使用: 将比较器函数对象作为参数传入sort()
@@ -1233,7 +1227,7 @@
                解决: 只要颠倒比较器结果的正负号，就可改升序为降序
          最简单的数字降序比较器:
              function cmp(a,b){return b-a}
-     15.向数组中添加元素4种:
+#####17.向数组中添加元素4种:
           1. concat(): 1. 不修改原数组，返回新数组
                     2. 在结尾拼接元素
                     3. 支持打散数组类型参数
@@ -1246,7 +1240,7 @@
           4. shift(): 1. 直接修改原数组
                   2. 只能在开头拼接元素
                   3. 不支持打散数组类型参数
-     16.取出数组元素: 4种:
+#####18.取出数组元素: 4种:
           1. slice(): 1. 可获取任意位置的任意个元素
                       2. 不修改原数组，返回选中的元素组成的新数组
           2. splice(): 1. 删除任意位置的任意个元素
@@ -1294,7 +1288,7 @@
                      	html.sort(function(a,b){return b-a});
                      	console.log(html);
                      </script>
-     17.二维数组
+#####19.二维数组
            创建: 2种:
             1. 先创建空数组，再添加子数组:
                var arr=[];
@@ -1311,8 +1305,8 @@
                  data[r][c] //当前正在变量的元素
          }
          }
-     ===================================================JS高级============================================================
-     1.String
+###JS高级
+####.String
          1.大小写转换：str.toLowerCase() 转小写------用户名和验证码不区分大小写
                        str.toUpperCase() 转大写
          2.获得指定位置的字符:str.charAt(i) <=> str[i]（此方法容易误会为数组）
@@ -1387,7 +1381,7 @@
                 说明: 在切割后的结果数组中，不包含切割符了
                 固定套路: 将字符串打散为字符数组:
                 var arr=str.split("");--------如果字符串想用数组的api时，先变成数组，如果字符排序或者翻转
-     2.正则表达式
+####2.正则表达式
          何时: 2种:
            1. 模糊匹配多种关键词
            2. 密码格式
@@ -1495,7 +1489,7 @@
                           			break;
                           		}
                           	}while(true);
-     3.Math:专门封装算数计算的常量并提供数学计算的API
+####3.Math:专门封装算数计算的常量并提供数学计算的API
          强调: 不能new！所有API都通过大写Math直接调用
          API:
            1. 取整: 3种:
@@ -1578,7 +1572,7 @@
                     Math.atan(对边长/临边长)
                     问题: 无法区分象限
                     解决: Math.atan2(对边长,临边长)------Math.atan2(y,x)-----求弧度
-     4.Date:封装一个时间，并提供操作时间的API的对象
+####4.Date:封装一个时间，并提供操作时间的API的对象
          何时: 只要存储时间或计算时间
          1.如何创建: 4种:
             1. 创建日期对象，同时获得*客户端*当前系统时间，无法获得服务器时间:
@@ -1637,7 +1631,7 @@
                  **date.toLocaleDateString() 仅保留日期部分----2015/6/30
                  date.toLocaleTimeString() 仅保留时间部分------上午12:00:00
                  date.toGMTString()  转为国际标准时间(0时区)------Fri, 29 Jun 2012 16:00:00 GMT
-     5.错误处理:程序运行过程中，导致程序无法继续执行的异常情况，发生错误后，程序会立刻中断退出，
+####5.错误处理:程序运行过程中，导致程序无法继续执行的异常情况，发生错误后，程序会立刻中断退出，
                  错误处理是即使程序发生错误，也保证不强行退出的一种机制
          1.为什么: 避免程序强行中断，闪退，导致极差的用户体验
          2.何时使用: 只要希望即使程序发生错误，也保证不强行退出
@@ -1699,7 +1693,7 @@
                 		alert("出错啦！必须输入数字")
                 	}
                 	document.write("<br>程序继续执行...")
-     6.垃圾回收：
+####6.垃圾回收：
          垃圾: 内存中不再被任何变量应用的对象
          垃圾回收: 引用会自定释放不再被使用的对象的内存
          为什么: 内存的容量都是极其有限的
@@ -1709,7 +1703,7 @@
            2. 每创建一个对象，垃圾回收器就会监控该对象的引用个数
            3. 一旦发现一个对象，不再被任何变量使用，则释放该对象
            强烈建议: 一旦一个对象不再使用，则将变量赋值为null。释放对该对象的引用。
-     7.Function
+####7.Function
          1.创建3种:
                 1.声明:
                      function 函数名(参数列表){
@@ -1821,7 +1815,7 @@
                                       		alert("页面内容加载完成，at:"+end.toLocaleTimeString());
                                       	})()
                               何时: 只要不希望造成全局污染时，就用匿名函数包裹所有自定义的代码。
-     8.作用域(scope)：一个变量可用范围，也是一个变量的实际存储位置。--------避免不同范围的变量间相互干扰。
+####8.作用域(scope)：一个变量可用范围，也是一个变量的实际存储位置。--------避免不同范围的变量间相互干扰。
          1.包括: 2种:
              1. 全局作用域: window-->保存全局变量: 特点: 随处可用，可重复使用-----全局作用域对象
              2. 函数作用域: AO-->保存局部变量: 特点: 仅函数内可用，不可重用-------函数作用域对象
@@ -1847,8 +1841,8 @@
                     ECS中的函数记录出栈
                     ->临时作用域对象AO被释放
                          ->所有局部变量一同释放
-     9.作用域链（scope chain）: 由各级作用域对象连续引用形成的链式结构，保存着所有变量，且控制着变量的使用顺序----先局部后全局
-     10.闭包(closure):即重用变量，又保护变量不被污染的一种机制（***********）
+####9.作用域链（scope chain）: 由各级作用域对象连续引用形成的链式结构，保存着所有变量，且控制着变量的使用顺序----先局部后全局
+####10.闭包(closure):即重用变量，又保护变量不被污染的一种机制（***********）
          1.为什么: 全局变量和局部变量都有优缺点:
                  全局: 优: 可反复使用；缺: 随处可用——易被污染
                  局部: 优: 仅在函数内可用，不会被污染；缺: 不可重用
@@ -1906,7 +1900,7 @@
                     funs[0]();                                                 arr[i]=function(){console.log(i);}
                     funs[1]();                                                  ]
                     funs[2]();
-     11.***********面向对象: 程序中都是用对象结构来描述现实中一个具体事物。
+####11.***********面向对象: 程序中都是用对象结构来描述现实中一个具体事物。
          对象: 程序中封装现实中一个事物属性和功能的存储空间。
          1.为什么: 现实中，任何数据都有明确的归属，都不是孤立的。
          2.何时: 只要用程序描述现实中一个事物，都要将事物的属性和功能封装在一个对象中
@@ -2264,7 +2258,7 @@
                        封装:将事物的属性和功能集中定义在一个对象中，便于维护
                        继承:父对象的成员，子对象无需重复创建，可直接使用，代码重用，节约内存——偷懒
                        多态:如果父对象的成员不好用，可在子对象中重写同名成员，为了体现父子对象间的差异
-     12.ES5:ECMAScript: ECMA组织制定的JavaScript语言的国际标准，所有浏览器厂商遵照实现。规定了JS语言的核心语法。
+####12.ES5:ECMAScript: ECMA组织制定的JavaScript语言的国际标准，所有浏览器厂商遵照实现。规定了JS语言的核心语法。
          1.严格模式:比普通js运行模式更严格的模式
              1.为什么:js语言有很多广受诟病的缺陷
              2.何时: 2种:
@@ -2678,8 +2672,8 @@
                         		return prev+elem;
                         	},sum);
                         	console.log(sum);//51
-     13.ES6:
-         1.let: 创建一个仅在当前块内有效的变量
+####13.ES6:
+#####1.let: 创建一个仅在当前块内有效的变量
               1.var的问题:
                  1. js中**没有块级作用域**，导致块内的变量会污染外部。
                  2. js的**声明提前**会打乱程序的正常执行顺序
@@ -2788,7 +2782,7 @@
                  		};
                  		})(i)
                  	}
-         2.参数增强：
+#####2.参数增强：
              1.参数默认值default
                  function fun(参数1，参数2，...，参数n=默认值)
                  强调：可以有多个参数拥有默认值，但必须放到参数列表的最后
@@ -2825,7 +2819,7 @@
                  var arr=[1,2,3,4];
                  Math.max(...arr)--------------或者Math.max.apply(null,arr)
                  //3
-         3.箭头函数:简化**回调函数**:
+#####3.箭头函数:简化**回调函数**:
               1.何时:今后，几乎所有的回调函数都可用箭头函数简化
               2.如何简化:
                        1. 所有回调函数都可:去function改=>
@@ -2840,7 +2834,7 @@
                            变通解决:
                            elem.addEventListener("click",e=>{e.target->elem})（******）
                         B.对象的方法不能内外共用this
-         4.所有的回调函数：
+#####4.所有的回调函数：
              	var arr=[12,3,123,23,2,1];----------排序
              	arr.sort((a,b)=> a-b);
              	console.log(String(arr));
@@ -2863,7 +2857,7 @@
              	(()=>{----------------------------------------函数自调
              		console.log("Hello 来自 匿名函数自调");
              	})()
-         5.模板字符串: 对字符串拼接的简化:
+#####5.模板字符串: 对字符串拼接的简化:
                  ESlint中已禁止使用+进行拼接
               1.何时: 只要字符串拼接时，需要动态执行表达式
               2.如何: `反引号——ESC键的正下方
@@ -2890,7 +2884,7 @@
                  	}
                  	searchList.innerHTML=html;
               </script>
-         6.解构：简化多个变量的赋值
+#####6.解构：简化多个变量的赋值
              1.数组解构：将数组中元素，分发给多个变量
                  下标对下标：var[变量1，变量2,...]
                              =[值1,值2,...]
@@ -2944,7 +2938,7 @@
                              console.log("处理服务器返回的数据");
                          }
                          })
-         7.for of: 简化普通for循环:在特定情况下，简化普通for循环，代替forEach
+#####7.for of: 简化普通for循环:在特定情况下，简化普通for循环，代替forEach
               1.何时: 遍历数组中每个元素对象:
                   方法一: for(var i=0;i<plist.length;i++){
                                var p=plist[i]
@@ -2998,7 +2992,7 @@
               4.局限:1. of只能依次遍历每个元素
                      2. 按值传递,无法修改原数组中的值,如果要直接修改原数组中的值，还要用普通for循环
                      3. 只能遍历索引数组和类数组对象。不能遍历关联数组和对象,如果遍历关联数组和对象，还要用for in循环
-         8.class: 为了简化面向对象（********）
+#####8.class: 为了简化面向对象（********）
              1.对直接量的简化：
                  var obj={
                      属性名: 变量名, 如果属性名和变量名一致，则仅写一个
@@ -3166,7 +3160,7 @@
                              Student.isStudent(obj1),
                              Student.isStudent(obj2)
                          );
-         9.promise:*****代替异步调用中的回调函数------避免回调地狱   callback hell，如果IE8不支持，还是要用回调函数callback
+#####9.promise:*****代替异步调用中的回调函数------避免回调地狱   callback hell，如果IE8不支持，还是要用回调函数callback
              需求: 多个异步调用的函数，需要顺序执行
                  1.callback解决：
                      如何: 2步:
@@ -3275,8 +3269,8 @@
                          ]).then(function(){
                              console.log("*******比赛结束!********");
                          })
-     =============================================Dom========================================================================
-     1. DOM：(Document Object Model)专门操作网页内容的API， W3C指定的标准，所有浏览器厂商遵照实现
+###Dom
+####1. DOM：(Document Object Model)专门操作网页内容的API， W3C指定的标准，所有浏览器厂商遵照实现
          1.何时: 今后只要操作网页内容，就必须用DOM
          2.为什么: 为了统一操作网页内容的API用DOM标准操作网页内容几乎100%兼容
          3.分为:
@@ -3312,7 +3306,7 @@
                                 attribute    属性值
                                 text        文本内容----------innerHtml也可拿到文本内容***
          7.DOM操作:查找触发事件的元素->绑定事件->查找要操作的元素-->修改/添加/删除
-     2.查找: 4种:
+####2.查找: 4种:
            1. 不需要查找就可直接得到:
                  document
                  document.documentElement —— html
@@ -3444,7 +3438,7 @@
                          console.time("get2");
                          getChildren2(document.body);
                          console.timeEnd("get2");
-           3. 按HTML查找: 4种:-----------例子：用js做购物车
+####3. 按HTML查找: 4种:-----------例子：用js做购物车
              1. 按id查找: var elem=document.getElementById("id")
                 A.强调: 1. 只能在document调用！---.getElementById，.前只能用document
                          只能返回第一个指定id的元素
@@ -3471,7 +3465,7 @@
                  2.绑定事件
                  3.查找要修改的元素
                  4.修改元素
-           4. 按选择器查找: Selector API: 2个:
+####4. 按选择器查找: Selector API: 2个:
              1. 只找一个元素:
                      var elem=parent(父元素).querySelector("selector");
              2. 找多个元素:
@@ -3684,9 +3678,9 @@
                                     selCts.appendChild(frag);-------------------将虚拟父元素挂至dom树上
                                 }
                           </script>
-     5.删除: parent.removeChild(child)
+####5.删除: parent.removeChild(child)
              child.parentNode.removeChild(child)
-     6.HTML DOM常用对象:
+####6.HTML DOM常用对象:
          1.image: 指代页面上一个img元素
            创建: var img=new Image();
          2.select/option: 指代页面上一个<select>元素
@@ -3836,8 +3830,8 @@
                          max_input_time=900
                          memory_limit=256M              php最大使用内存量
                      (3)停止apache/重启apache php.ini 生效
-     =============================================BOM========================================================================
-     1. 什么是BOM: (Browser Object Model)专门操作浏览器窗口/软件的API
+###BOM
+####1. 什么是BOM: (Browser Object Model)专门操作浏览器窗口/软件的API
              问题：没有标准，兼容性极差
              1.window: 2个角色:
                  1. 代替ES中的global充当全局作用域对象
@@ -3850,7 +3844,7 @@
                  navigator:保存浏览器的配置信息
                  screen:保存客户端显示设备的信息
                  event:定义事件对象
-     2. 打开和关闭窗口:
+####2. 打开和关闭窗口:
            打开一个新窗口: /*window.*/open("url","name"),其中: name: 新窗口在内存中的名称,
            关闭窗口close()
            浏览器规定: 相同name的窗口只能开1个,后开的会替换先开的。
@@ -3894,7 +3888,7 @@
                  js: open("url","自定义name")
                  内置name: _self 用当前窗口自己的name，打开新窗口
                            _blank 不指定name，浏览器会随机生成name
-     3.BOM常用对象:
+####3.BOM常用对象:
          1.history: 保存当前窗口打开后成功访问过的url的历史记录栈
              history.go(n) : history.go(0) 刷新
                              history.go(-1) 后退1步
@@ -4014,7 +4008,7 @@
                         			version=parseFloat(ua.slice(i,i+3));
                         		}
                         		document.write(browser+"<br/>"+version+"<br/>");
-     4.定时器：2种:
+####4.定时器：2种:
         1.周期性定时器:-----------------------ex:JS做幻灯片定时器
             1.什么是: 让程序每隔一段时间间隔反复执行一次任务，循环是反复执行一个任务，而没有时间间隔
             2.何时: 让程序每隔一段时间间隔反复执行一次任务
@@ -4101,7 +4095,7 @@
                     setTimeout(fun,0);
                     console.log(a);//undefined
                     console.log(b);//b is not defined
-     5.event:用户手动触发的或浏览器自己触发的页面状态的改变,当事件发生时，都可以执行事件处理函数来响应事件的操作。
+####5.event:用户手动触发的或浏览器自己触发的页面状态的改变,当事件发生时，都可以执行事件处理函数来响应事件的操作。
          事件处理函数：当事件发生时，自动执行的回调函数
            1.绑定事件处理函数:3种:
                1. 在HTML中绑定:<ANY on事件名="fun()"
@@ -4295,7 +4289,7 @@
                               window.scrollTo(left, top)
                             2. 滚动过一段距离:
                               window.scrollBy(left的增量, top的增量)
-     6.绑定键盘事件：（***********）
+####6.绑定键盘事件：（***********）
          document.onkeydown=function(e){
                switch(e.keyCode){
                  case 37: //左
@@ -4311,8 +4305,9 @@
              }.bind(this);//用start中正确的this代替事件处理函数中不想要的this
            }
      7.window.onload();------------------一段代码依赖于css样式时，用onload可以保证页面html和css加载完再执行js
-     =============================================jquery==============================================================
-     1. 什么是jQuery:
+###jquery
+
+####1. 什么是jQuery:
           第三方开发的，执行DOM操作的，极简化的，函数库
           第三方: 下载，才能用
           执行DOM操作: 增删改查，事件绑定
@@ -4327,7 +4322,7 @@
                1. DOM操作的终极简化:
                2. 解决了大部分浏览器兼容性问题:
                  凡是jQuery让用的，都没有兼容性问题:
-     2. 如何使用:
+####2. 如何使用:
           1. 下载: 版本:
                1.x 兼容旧浏览器
                     1.x.js 未压缩版本: 具有完整的注释，代码格式，有意义的变量名
@@ -4396,7 +4391,7 @@
                2.JQ对象:由第三方JQUERY.JS库定义.并提供简化操作DOM的API，类数组对象
                  使用JQUERY API->简化，解决浏览器兼容问题
                3.两套API无法通用!
-     3.jquery 选择器：今后都是先找元素，再调用jqueryAPI操作元素;
+####3.jquery 选择器：今后都是先找元素，再调用jqueryAPI操作元素;
      	            只要用jquery找元素,都用选择器!
      				用jquery查找元素，返回直接就是jquery对象.无需再封装.
          1.查找：
@@ -4567,7 +4562,6 @@
                       6.不能访问三大状态属性：selected/checked/disabled
                                获取:$("..").prop("属性名");
                                修改:$("..").prop("属性名",值);
-     4.
                  8.查找元素(父元素/下一个兄弟),判断选择器
                    .is("选择器")
                    .parent();
@@ -4637,7 +4631,7 @@
                  4.访问状态属性
                      $("..").prop("状态属性名");
                      $("..").prop("状态属性名",值);
-     	3.添加/移除class：
+     	 3.添加/移除class：
      			$("..").addClass("类名");  将指定类名(追加)到选中的元素之上
      			$("..").removeClass("类名");  将指定类名从选中的元素上移除
      			$("..").hasClass("类名");  判断选中元素中是否包含指定类名 true false
@@ -4673,7 +4667,7 @@
      					 $(child).after($elem);  在child之后插入
          5.删除节点
               1.$(node).remove();删除节点
-     	6.替换. 复制
+     	 6.替换. 复制
               1.替换
                    1.用后边，替换前边
                      $("旧的").replaceWith("新元素");
@@ -4749,7 +4743,7 @@
           	        getComputedStyle(elem).css属性名
          		 问题:不便于大项目维护
          		 解决:大型项目中都要操作css来代替换单个样式.
-     4.jquery 事件处理---* 重点&难点——————————————————绑定
+####4.jquery 事件处理---* 重点&难点——————————————————绑定
      	  	1.常用绑定：
      			  $("..").bind("事件名",fn);         绑定
      			  $("..").unbind("事件名",函数名);   解除绑定
@@ -4906,7 +4900,7 @@
                                      removeEvenetListener("事件名",函数名);
                                      强调:要想移除事件监听，必须使用有名函数；
                                           绑定事件监听，如果添加事件时使用匿名函数，则不可能移除.
-     12.jquery 事件(加载)页面加载后执行2种:
+####5..jquery 事件(加载)页面加载后执行2种:
      	 1.整个页面(html, css, js, 图片)加载后执行: 红线
               window.onload=function(){
                    //必须依赖css和图片的代码
@@ -4926,10 +4920,10 @@
                 封装：dom元素封装成jquery元素
                 创建新元素
                 事件绑定
-     13.jquery动画:jquery中通过动画函数实现动画效果--高级函数
+####6.jquery动画:jquery中通过动画函数实现动画效果--高级函数
          1.问题: 1. 无法修改效果，不便于维护
                  2. 用js程序的定时器实现的——效率不如css的
-     	2.简单动画：效果固定的一组动画API
+     	 2.简单动画：效果固定的一组动画API
      	   1.显示隐藏
      		   $("..").show()  显示
      		   $("..").hide()  隐藏
@@ -4948,7 +4942,7 @@
      		   $("...").fadeIn();
      		   $("...").fadeOut();
      		   $("...").fadeToggle();
-     	3.万能动画:可对多种css属性，自由改动
+     	 3.万能动画:可对多种css属性，自由改动
               $(...).animate({
                 css属性: 目标值,
                   ... : ...
@@ -5038,7 +5032,7 @@
                    实质：其实每个元素都有一个等待队列，调用动画API，并不是执行动画的意思，只是将动画，加入等待队列中
                  $("..").animate({},speed).animate({},speed);
          6.选择器: :animated 获取或判断一个正在播放动画的元素
-     14.类数组对象操作
+####7.类数组对象操作
             1.为jquery添加jquery(全局)函数
                  $.each();
                  什么是:不依赖于任何具体DOM对象,就可直接调用jquery函数.
@@ -5115,9 +5109,9 @@
                      });
                      console.log(arr);
                    </script>
-     15.自定义API
+####8.自定义API
          向jQuery类型的原型对象中添加自定义函数--------如封装自定义插件例子tabs/accordion/dropdown
-     15.jquery 插件:
+####9.jquery 插件:
          什么是: 为库/框架，添加新功能的小程序
          为什么: 添加新功能， 重用功能
          何时: 只要项目中出现相同的或类似的功能，都可封装为插件，反复使用。
@@ -5335,7 +5329,7 @@
                          $.getJSON("url",data, success)
                          $.getScript("url",data,success)
                     $.post("url",data, success ,dataType)
-     16.*****跨域:一个域名下的网页，向另一个域名下的服务端发送请求
+####10.*****跨域:一个域名下的网页，向另一个域名下的服务端发送请求
            包括:
                URL	                            说明	                 是否允许通信
                http://www.a.com/a.js
@@ -5366,7 +5360,7 @@
                  $.ajax, $.get, $.post, $.getScript, $.getJSON
            解决: 用script发送跨域请求
                  script: 请求一段js代码，并在客户端本地执行
-     17.session:
+####11.session:
          什么是: 服务器端，专门保存每个客户端临时数据的存储空间
          为什么: 保持多个请求之间的数据共享和连续性
          何时: 在多个请求之间保存一个用户的共享数据时
@@ -5377,24 +5371,24 @@
              session其实是一个内存中的关联数组:
              session_start();
              $_SESSION["属性名"]=值
-     ---------------------------------------------------mysql数据库----------------------------------------------------------
-     1.数据库服务器分类
+###mysql数据库
+####1.数据库服务器分类
          网状数据库
          树形数据库
          关系型数据库!!!!
              MySQL**/SqlServer/Oracle/DB2....
              NOSQL数据库/Redis
            MySQL:公开->MySQL AB->SUN->Oracle
-     2.下载,安装,使用
+####2.下载,安装,使用
              版本:  5.5 (5.6) 5.7
              系统:  windows/linux/unix
              32/64位:右击我的电脑->64
              官网:http://www.oracle.com.cn/
              镜像:http://mirrors.sohu.com
              xampp 软件工具包(php/mysql/apache)
-     3.MYSQL数据库数据的结构
+####3.MYSQL数据库数据的结构
              mysql服务器->库-->表-->行(记录)->列(字段)
-     4.使用
+####4.使用
              1:启动 mysql服务器 不要停止
              2:SQL语句  ---  重点&难点
                  Structured Query Language 结构查询语言，
@@ -5408,18 +5402,18 @@
                    SELECT (最难)
                  DCL(Data Control Language)     控制用户权限
                     GRANT/REVOKE
-     5.在线手册:
+####5.在线手册:
          ? ALTER TABLE 回车
-     6.保存sql脚本文件 utf8
+####6.保存sql脚本文件 utf8
            ANSI<-->GBK
-     7.打开mysql窗口
+####7.打开mysql窗口
            每次新打开窗口执行指令：SET NAMES UTF8;
-     8.BUG    windows-->命令功能弱 只能正确显示gbk 中文
+####8.BUG    windows-->命令功能弱 只能正确显示gbk 中文
            mysql功能:将utf8数据转换 gbk显示
            指令:
              SET NAMES gbk;
              SELECT * FROM bb_book;
-     9.如何进入 mysql系统中
+####9.如何进入 mysql系统中
                  xampp-->右击按钮[shell] 点击
                      #mysql -uroot -p
                      mysql 指令->进入mysql数据库
@@ -5428,12 +5422,12 @@
                      -p    密码
        如何进入mysql服务器：mysql.exe -h127.0.0.1 -P3306 -uroot -p
        退出：quit;
-     10.文件引入数据库
+####10.文件引入数据库
             第一种方法：SOURCE  d:/taobao.sql
             第二种方法：在windows界面：mysql -uroot < E:\zhang\1801class  (路径中无中文和空格，且后面无分号)
-     11.库表的创建及增删改查：
+####11.库表的创建及增删改查：
      #? alert table----用法
-         1.CREATE 创建库
+#####1.CREATE 创建库
              1.标准语法
                  CREATE DATABASE 库名;
                  (***重要：否则汉字无法显示)CREATE DATABASE 库名 CHARSET=utf8;
@@ -5450,7 +5444,7 @@
              5.mysql 坑
                  html/css/js/dom/jquery/php UTF-8
                  mysql                      utf8
-         2.CREATE TABLE 创建表
+#####2.CREATE TABLE 创建表
              1.标准语法
                  CREATE TABLE 表名(
                     列名称1  列类型,
@@ -5520,7 +5514,7 @@
                      (6)外键约束：FOREGIN  KEY
                          声明了外键约束的列，取值必须在另一个表的主键列上出现过，外键列上可以出现重复值或NULL，主键和外键的类型必须一致。
                          ex:    FOREIGN KEY(familyId) REFERENCES xz_laptop_family(fid)
-         3.验证创建库创建表指令
+#####3.验证创建库创建表指令
              1.查看当前 mysql中所有库名
                              SHOW DATABASES;
              2.进入指定库中
@@ -5529,7 +5523,7 @@
                              SHOW TABLES;
              4.查询指定表名结构
                              DESC 表名;
-         4.DROP 删除库 删除表
+#####4.DROP 删除库 删除表
              1.注意:一但删除库或者表很难恢复
              2.生产环境:非常非常谨慎操作
              3.如果很重要的库->(备份)->删除
@@ -5542,14 +5536,14 @@
                      DROP TABLE 表名;
                      示例:产品表
                          DROP TABLE t_product;
-         5.删除表中记录
+#####5.删除表中记录
              1.删除之前一定谨慎-->
              2.标准语法:
                  DELETE FROM 表名;
                  DELETE FROM 表名 WHERE id = 值;
                      示例:
                      DELETE FROM t_stu WHERE id=2;
-         6.向表中添加一行数据(记录)
+#####6.向表中添加一行数据(记录)
              1.标准语法:
                 INSERT INTO 表名 VALUES(值1,值2,..);
                    注意：
@@ -5563,7 +5557,7 @@
                      INSERT INTO t_stu VALUES(2,'jerry',
                      '2017-05-05');
                    ex:INSERT INTO xz_admin(aid,aname,apwd) VALUES(null,'huahua',md5('123'));
-         7.更新表中某一些记录
+#####7.更新表中某一些记录
              1.标准语法:
                  UPDATE 表名 SET 列名=新值;
                  UPDATE 表名 SET 列名=新值,列名=新值 WHERE 列=值;
@@ -5572,11 +5566,11 @@
                      WHERE name = 'tom';
                  99%-->原因 id==>INT
                      UPDATE t_stu SET ctime = '2017-10-10' WHERE id = 1;
-         8.修改列类型:标准语法
+#####8.修改列类型:标准语法
              ALTER TABLE 表名 MODIFY  列名 新列类型;
                  示例：
                  ALTER TABLE t_user MODIFY upwd VARCHAR(32);
-         9.查询记录
+#####9.查询记录
                  1.标准语法:SELECT 列名,列名... FROM 表名 WHERE  条件 ORDER BY 列名    **查询且排序
                  2.所有列
                      SELECT * FROM 表名;
@@ -5595,15 +5589,15 @@
      *************binary(sql语句中密码必须验证大小写，原理其实是用unicode号做比较:)
                       ex:$sql="SELECT * FROM xz_user WHERE uname='$n' AND binary upwd='$p'"
                  ex:SELECT aid,aname,apwd FROM xz_admin;----------------不用*查询
-         10.注释：
+#####10.注释：
              单行注释：#...
              多行注释：/*...*/
-         11.乱码：
+#####11.乱码：
              根源：MySQL默认存储数据使用Latin-1字符集，无法表示中文！
              解决：1.Settings-editor-file encodings-project encoding-utf-8（或者编辑器右下角改成utf-8）
                    2.创建文件之前，在头部写入SET NAMES UTF8;
                    3.CREATE DATABASE *** CHARSET=UTF8;
-         12.标准SQL语句的分类：
+#####12.标准SQL语句的分类：
             (1)DDL: Data Define Language 定义数据列
                  CREATE / DROP / ALTER(修改) / TRUNCATE(截断)
             (2)DML: Data Manipulate Language 操作数据行
@@ -5612,12 +5606,12 @@
                  SELECT
             (4)DCL: Data Control Language 控制用户权限
                  GRANT(授权) / REVOKE(收权)
-     ----------------------------------------------------------php-----------------------------------------------------------
-     1.php概述、语法
+###php
+####1.php概述、语法
      	1.作用: 负责接收客户端请求，处理请求,查找请求资源并且将结果返回给客户端浏览器.
          	(电话餐厅 大堂经理)
          2.web服务器<--->apache
-     2.web服务器种类
+####2.web服务器种类
      	1.静态web服务器(apache)
      	    提供的内容任何时间任何人访问完全相同
      		属于静态web范畴技术：
@@ -5628,14 +5622,14 @@
      			 2) ASP.NET = HTML + C#
      			 3) PHP = HTML + PHP (简单)
      			 4) NodeJS = HTML + Node.JS
-     3.php 背景知识
+####3.php 背景知识
      		php是一种运行在(服务器)端编程序语言，用于生成动态网页.
      		php 2000 zend
      		php特点:开源，简单，易于手，
      		跨平台(windows/linux/mac)
      		!!!适合中小型应用开发(微博.微信.微信公众平台..)
          	php版本 5.1 5.4 5.5  .. 6.0  7.0
-     4.php是如何工作的
+####4.php是如何工作的
      	 a:前提条件: apache服务器启动正常工作
      	 b:客户端浏览器在地址栏输入一个程序地栏,按回车发送请求 {请求}
      			http://127.0.0.1/day03/1.php
@@ -5648,7 +5642,7 @@
           g:apache将结果(html/css/js) {响应}发送给客户端浏览器
           h:客户端浏览器显示apache返回内容(html/css/js)
      			示例:bbs/select_user.php(day03)
-     5.搭建php运行环境
+####5.搭建php运行环境
      		1:安装软件 apache
      		2:安装软件 php解析器
      		3:所有php只能保存在c:/xampp/htdocs/1.php
@@ -5658,7 +5652,7 @@
      			浏览器地址栏http://127.0.0.1/1.php 回车
          		127.0.0.1 地址运行apache软件计算机地址
      			本机
-     6.php语法:
+####6.php语法:
      	   a:注意程序位置  c:/xampp/htdocs/...
      	   b:创建一个程序
      		   <?php
@@ -5673,7 +5667,7 @@
      	   f:一个php程序由html/css/js/php 混合组成
      			示例:2.php(day02)
      			示例:3.php 四个示例
-     7.php中数据类型
+####7.php中数据类型
      	   1)值类型/标量类型(原始类型)
      		     string
      			 boolean/bool
@@ -5713,7 +5707,7 @@
      							}
      					 示例:5.php
      					 示例:6.php
-     8.php连接mysql  重点&难点	php中操作mysql数据库的函数
+####8.php连接mysql  重点&难点	php中操作mysql数据库的函数
      	   php最初提供一套连接操作mysql函数   mysql_xxx();
      	   后来提供了增强版函数              mysqli_xxx();
      	 1.使用php连接mysql服务器步骤:
@@ -5757,17 +5751,17 @@
                              die('{"code":-1,"msg":"上传文件类型不正确，请重选!"}');
                          }
      		 7.explode和implode   爆炸和粘贴
-     ---------------------------------------------------------------http-----------------------------------------------------
-     1.学习http协议的目标
+###http
+####1.学习http协议的目标
      	1:调试ajax应用的中"看不见模不着"的错误
      	2:进行web访问优化--高阶面试
-     2.URL
+####2.URL
      	世界上任何一个建筑必须有一个"地址",互联网上任何一个资源(html/img/css/js/php)
      	必须有一个"URL"才能被访问.
      	标准URL:
      		<scheme>://<user>:<pwd>@<host>:
      		<port>/<path>;<params>?<query>#
-     3.URL/URN/URI
+####3.URL/URN/URI
      	Unified Resource Locator    统一的资源定位符
      	Unified Resource Naming     统一的资源命名符
      	Unified Resource Identifier 统一的资源识别符
@@ -5778,17 +5772,17 @@
      	URN:
      		 <a href="mailto:admin@tmooc.cn">...</a>
      		 <a href="javascript:void(0)">...</a>
-     4.完整URL格式:
+####4.完整URL格式:
      	<scheme>://<user>:<pwd>@<host>:<port>/<path>;<params>?<query>#
-     5.<scheme> 方案:
+####5.<scheme> 方案:
      	指定以哪种(协议)从服务器上获取指定资源
      	常见方案:http/https/ftp/file/telnet.
      	  http://www.ccb.com/cn/home/indexv3.html
      	  https://ibsbjstar.ccb.com.cn----安全，加密方式
-     6.<host> 主机名 资源所在服务器ip地址或者域名
+####6.<host> 主机名 资源所在服务器ip地址或者域名
      	127.0.0.1      <-----> localhost
      	61.135.169.121 <-DNS-> www.baidu.com
-     7.<port> 端口号 每一项服务在计算机上都有一个监听端口号，整数
+####7.<port> 端口号 每一项服务在计算机上都有一个监听端口号，整数
      	netstat -an  查找端口
          端口：1-65535   可用范围：1023-65535
              apache  80/443 (1~65535)
@@ -5801,30 +5795,30 @@
              http	80  超文本传输协议(发送网页)
              pop3	110 邮件接收
              https	443 加密超文本传输协议
-     8.<query> 参数
+####8.<query> 参数
      	http://127.0.0.1/1.php?uname=tom&upwd=123
-     9.相对URL/绝对URL
+####9.相对URL/绝对URL
      	1：以方案开头绝对URL
      		<a href="http://127.0.0.1/1.html">
      	2：不以方案开头相对URL
      		<a herf="1.html"/>
-     10.HTTP 协议概述
+####10.HTTP 协议概述
      	互联网早期没有http协议
      	IETF (互联网任务委员会)
      	 1990年 http/0.9 有严重缺陷
      	 1996年 http/1.0 标准 RFC1945
      	 1999年 http/1.1
-     11.http协议工作方式:请求响应方式
+####11.http协议工作方式:请求响应方式
      	1:客户端浏览器发送请求给web服务器(apache)request
      	    {请求}
      	2:web服务器接收请求，处理数据，并且将结果返回客户浏览器 response
      	    {响应}
-     12.请求次数
+####12.请求次数
      	1:地址输入地址             回车
      	2:<img src="1.jpg">..</a>  请求
      	3:<script src="jquery.js"> 请求
      	4:<link href="1.css">      请求
-     13.http/1.1比http/1.0改进了哪些地方?
+####13.http/1.1比http/1.0改进了哪些地方?
      	1:支持虚拟主机技术，在一个web服务器上同时并存多个不同域名网站，即在一台物理服务器同时创建多个虚拟主机,充分利用服务器资源
      		 tmooc/tts/jobshow
      	2:支持持久连接技术，早期http1.0不支持持久连接：提升服务器与浏览器传输数据效率
@@ -5834,10 +5828,10 @@
      		Connection:keep-alive 持久化
      	3:支持代理连接：路由器
      	  Proxy:xxx
-     14.http协议详解
+####14.http协议详解
      	 a:02.html 盗链
      	 b:缓存.jpg
-     15.http请求和响应的内容
+####15.http请求和响应的内容
      	1.标准格式：
      		请求消息(request) --客户端浏览器发送服务器
      		响应消息(response)--服务器发送客户端浏览器
@@ -5887,7 +5881,7 @@
                        405 Method Not Allowed    请求方法不支持
                    500-599   服务器错误
                        500 Internal Server Error 服务器内部错误(程序出错)
-     16.请求数据：
+####16.请求数据：
          1.请求起始行：
              1.请求方式：(8种方式：get,post,put,delete,head,option,trace,connect)
              2.请求地址：
@@ -5907,25 +5901,25 @@
                  2.application/x-www-form-urlencoded   请求主体是经过编码后的表单数据(POST)
                  3.multipart/form-data  表单中包含上传文件数据
          3.请求主体：
-     17.响应数据：
+####17.响应数据：
          1.响应起始行：
              1.协议版本：HTTP/1.1
              2.响应状态码：100/200/300/400/500
              3.短语
          2.响应头：
          3.响应主体：
-     --------------------------------------------------------------ajax------------------------------------------------------
-     1:ajax :Asynchronous JavaScript AND Xml
+###ajax
+####1:ajax :Asynchronous JavaScript AND Xml
      	异步的js与xml
-     2.ajax简介:
+####2.ajax简介:
      	2002年 Google GoogleSuggest搜索建议:提出AJAX概念
      	AJAX=HTML+CSS+JS+DOM+HTTP+XML
-     3.ajax作用:
+####3.ajax作用:
      		实现(无刷新)(无提交)(无跳转)的情况下页面内容局部更新.
-     4.ajax应用场合:
+####4.ajax应用场合:
      		股票走势图、搜索建议、聊天室、注册...
-     5.15.AJAX知识点.jpg 思维导图
-     6.浏览器中发起请求种类
+####5.15.AJAX知识点.jpg 思维导图
+####6.浏览器中发起请求种类
      	a:同步请求:
      	  浏览器请求后，一片惨白，等待服务器响应,刷新网页(输入内容清空);
      	  地址栏输入地址,表单提交,超接链
@@ -5935,7 +5929,7 @@
      	b:异步请求:
      	  浏览器中有内容，同时又发起请求处理响应.(原有内容没有任何改变)
      		AJAX
-     7.快速入门:电话餐厅推出新业务{微信订餐}
+####7.快速入门:电话餐厅推出新业务{微信订餐}
      	示例一:(day05)
      		1:添加用户 ajax实现功能
      		2:user_add.php        一点都没变
@@ -5952,7 +5946,7 @@
      			d:打开连接        xhr.open('GET','user_add.php',true);
      			e:发送请求        xhr.send(null);
      		6:获取php返回结果 "添加失败";js
-     8.AJAX对象与属性
+####8.AJAX对象与属性
      	 a:XHR对象: 作用向web服务器发起异步请求,并且接收返回响应消息(数据);
           	构建XHR
      			 1.W3C(ch/ff/sa/IE9+):标准对象 XMLHttpRequest
@@ -5962,7 +5956,7 @@
      				 }else{
      				  var xhr = new ActiveXObject("Microsoft.XMLHTTP");
      				 }
-          b:XHR对象属性
+         b:XHR对象属性
            	readyState:表示xhr对象当前状态，不能手动赋值,其值会随请求-响应过程自动改变.
      			 1.可取值
      				0 UNSEND  请求信息尚未发送
@@ -5970,15 +5964,15 @@
      				2 HEADERS_RECEVICED xhr己经接收到响应头部
      				3 LOADING xhr正在加载响应的消息主体
      				4 DONE    xhr接收完成响应消息
-          c:status: 服务器响应状态码 200
+         c:status: 服务器响应状态码 200
      	 d:responseText:响应文本(响应数据)
      	 e:responseXML:成员方法
-          f:open(method,url,isAsyn);  打开到服务器连接
-          g:method:请求方法 GET/POST/DELETE..
+         f:open(method,url,isAsyn);  打开到服务器连接
+         g:method:请求方法 GET/POST/DELETE..
      			url:   请求地址
      			isAyn  是否是异步请求  true
      			       同步请求  false
-          h:send(请求主体);
+         h:send(请求主体);
      			GET:	send(null);
      			POST:   send('name=tom&age=10');
      	 i:成员事件:
@@ -5987,7 +5981,7 @@
      			  状态改变规则:
      			  (0)------->(1)------>(2)--->(3)--->(4)
      			  初始 open()    send()    自然  自然
-     9.使用XHR发起异步请求消息步骤--重点
+####9.使用XHR发起异步请求消息步骤--重点
      			 1) 创建对象XHR
      			    var xhr = new XMLHttpRequest();
      			 2) 绑定监听(监听状态改变)事件
@@ -5996,8 +5990,8 @@
      			    xhr.open('GET',url,是否是异步请求);
      			 4) 发送请求消息
      			    xhr.send(请求主体);
-     10.ajax处理不同的数据类型
-        	     纯文本     -->掌握
+####10.ajax处理不同的数据类型
+        	 纯文本     -->掌握
      		 文本与网页 -->重点掌握 text/html
      		 xml        -->掌握 application/xml
      		 json       -->重点掌握!!!(工业标准) application/json
@@ -6088,12 +6082,12 @@
      				示例：(day08)
      				 i18n_04.php
      				 i18n_04.html
-     11.解答二个问题
+####11.解答二个问题
      	1.ajax:哪些元素动态创建:绑定事件，冒泡/事件代理
      	2.这个元素是使用什么方式创建
      		1:document.createElement();
      		2:menu.innerHTML = xhr.response;
-     12.jquery中的ajax
+####12.jquery中的ajax
      	1.ajax操作封装函数--load();
      		1.使用语法:
      		   $("选择器").load(URL,[data],[fn]);
@@ -6174,7 +6168,7 @@
      					error:fn,      响应完成且失败回调
      					complete:fn    响应完成回调(不论成败)
      				});
-     13.XML (java 旧项目)
+####13.XML (java 旧项目)
      	1.html:超文本标记语言，所有标签预定义好
      		h1 h2 h9 用于描述一个网页结构
          2.xml:可扩展的标签语言，所有标签都是自定义的，用于描述一段数据-尤其复合数据;
@@ -6220,7 +6214,7 @@
      				   <cake></cake>
      				   <cake></cake>
      			    </cakelist>
-     14.跨域(ajax跨域)-->了解
+####14.跨域(ajax跨域)
          www.tts.com/1.php --> www.tmooc.cn/2.php
      	a.com-->c.com
      	b.com-->a.com
@@ -6239,9 +6233,9 @@
      		 <link href="跨域css允许" />
      		 <script src="跨域js允许" ></script>
      		 <iframe 跨域访问></ifram>
-         3:浏览器禁止跨域访问
+        3:浏览器禁止跨域访问
      	 	浏览器禁止XHR(ajax) -->可能会导致数据安全风险
-         4:解决方案:JSONP
+        4:解决方案:JSONP
      	    JSON with Padding (填充式json)
      			是一种使用json数据方法，用于解决浏览器xhr跨域限制.
      		JSONP.jpg 图示(day09)
@@ -6270,8 +6264,8 @@
      		  function callback(data){
      			  console.log(data);
      			}
-     =======================================================H5================================================================
-     1.html5新特性 (网页漂亮,功能强,动画效果)
+###H5
+####1.html5新特性 (网页漂亮,功能强,动画效果)
          (1)html5新特性--新的语义标签
          (2)html5新特性--增强型表单(2.0)
          (3)html5新特性--音频和视频
@@ -6282,7 +6276,7 @@
          (8)html5新特性--Web Worker
          (9)html5新特性--Web Storage
          (10)html5新特性--Web Socket
-     2.增强型的表单
+####2.增强型的表单
          1.新input type
              h4:text/password/button/submit/radio/checkbox/image/file/hidden..
              h5:email/url/number/tel/color/range/date/month/week
@@ -6383,7 +6377,7 @@
                    <input type="submit" value="登录">
                  </form>
                  邮件 <input type="email" name="uemail" form="f3" multiple/>
-     3.音频和视频(重点)
+####3.音频和视频(重点)
          1.Flash被H5取代体现的方面：
              Flash绘图(AS/Flex)  ==>  Canvas/SVG
              Flash动画         ==>  定时器+Canvas
@@ -6451,7 +6445,7 @@
              ----js事件
                  onplay        当视频开始播放时触发的事件
                  onpause       当视频开始暂停时触发的事件
-     4.canvas--(重点)-(网页漂亮/炫/强大/游戏<商业>)
+####4.canvas--(重点)-(网页漂亮/炫/强大/游戏<商业>)
          1.网页中绘图技术：网页中实时走势图,网页游戏,地图应用都要绘图技术，有三种绘图技术:
              (1)Canvas:2D位图绘图技术，H5新技术
              (2)SVG:2D矢量图绘图技术，2000年出现，后纳入h5标准
@@ -6521,7 +6515,7 @@
                      ctx.restore()        恢复到画笔最近一次保存状态(颜色，角度...)
              7.贝塞尔曲线
                  起点  控制点  终点
-     5.SVG绘图
+####5.SVG绘图
          1.位图与矢量图区别：
              位图:由一个一个像素点组成，每个点各有自己颜色，色彩细致，但放大失真
              矢量图:由一个又一个线条组成，每个线条可以指定颜色，方向，可以无限缩放，但是细节不够丰富
@@ -6634,7 +6628,7 @@
                          </defs>
                          <rect fill="url(#g3)" x="0" y="0" width="500" height="200"></rect>
                      </svg>
-     6.地理定位
+####6.地理定位
          Geolocation:地理定位,使用JS获取当前浏览器所有在地理坐标
          (经度,纬度,海拨,速度)数据,用于实现LBS应用(Location Based Service)
              如:饿了么，高德导航，滴滴打车，企业网站(我的位置,路线)...
@@ -6656,7 +6650,7 @@
              3.在自己的网页中嵌入百度地图提供API,将地图功能加入网页
                  百度地图坐标拾取器
                  http://api.map.baidu.com/lbsapi/getpoint/index.html
-     7.拖放API:Drag & Drop 拖动和释放
+####7.拖放API:Drag & Drop 拖动和释放
            HTML5为拖动行为提供了7个事件，分为两组
                1.拖动的源对象(会动)可以触发事件:
                    dragstart  拖动开始
@@ -6670,7 +6664,7 @@
                3.整个拖动事件1:dragenter*1+dragover*n+dragleave*1
                  整个拖动事件2:dragenter*1+dragover*n+drop*1
                4.注意:必须阻止dragover 的默认行为,drop才可以触发
-     8.Web Worker
+####8.Web Worker
            1.程序:program  指可以被CPU执行代码，存储磁盘中.
            2.进程:process  指程序被OS调用内存中，并且分配空间,随时供CPU调用执行
            3.线程:Thread   线程是进程内部执行代码基本单位
@@ -6695,7 +6689,7 @@
            8.项目中worker应用“
                  (1)只要js中有DOM和BOM就不能用worker
                  (2)worker适合于执行耗时JS任务,复杂计算,加密解密
-     9.Web Storage：在浏览器中存储当前用户专有的数据:购物车,订制样式
+####9.Web Storage：在浏览器中存储当前用户专有的数据:购物车,订制样式
              1.在客户端存储数据可以使用的技术
                  (1)Cookie技术:浏览器兼容性;不能超4KB,操作复杂
                  (2)Flash存储:依束Flash播放器
@@ -6728,7 +6722,7 @@
                  2.localStorage中若数据发生了修改，会触发一次 window.onstorage事件，可以监听此事件，实现监视localStorage数据改变目的,
                    但是，不能监听sessionStorage数据
                      **如果数据安全性要求比较高，不能存储客户端(登录密码)
-     10.WebSocket:
+####10.WebSocket:
          WebSocket协议:属于"广播-收听"模型,客户端连接到服务器就不再断开，永久的连接，双方随时可以向对方发送数据.
          1.ws 服务器端应用
              监听指定端口,接收客户请求，向对方发送消息，并接收消息.
@@ -6777,16 +6771,16 @@
        (17)网络故障
             F12->NEWORK->response|header
        (18)Uncaught TypeError: data is not iterable   js控制台错误
-     ======================================================Bootstrap=======================================================
-     Responsive Web Page（响应式页面）
-     1.在HTML中指定视口的信息:
+###Bootstrap  Responsive Web Page（响应式页面）
+
+####1.在HTML中指定视口的信息:
          声明元标签 viewport (手机适配):viewport元标签
                早期3G手机为了浏览大尺网页，只能强行把网页缩小，导致文字，图片，超链变小。
                IOS提出了"视口",视口用于盛放网页的内容，尺寸可以任意指定，超过部分，滑动显示.
                Android也借鉴此概念.
          <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">(移动端必备！！！)
                                                 设备宽度             视口是否缩放
-     2.如何编写响应式网页
+####2.如何编写响应式网页
          1.必须声明视口
          2.文字要使用相对尺寸：em（父元素字体大小倍数），rem（根元素字体大小的倍数），尽量不要使用绝对尺寸（px,pt）
          3.容器元素使用相对尺寸（%，auto），尽量不用绝对尺寸（px）
@@ -6796,7 +6790,7 @@
                  1.float
                  2.display:inline-block;
                  3.display:flex;
-     3.(****重点****)响应式网页使用CSS3 Media Query（CSS3媒体查询）技术（最重要）
+####3.(****重点****)响应式网页使用CSS3 Media Query（CSS3媒体查询）技术（最重要）
          Media:指浏览网页的设备，如screen(pc/pad/phone),print,tv
          Media Query:查询出当前浏览网页设备的类型，以及特性(解析度，尺寸，手持方向等)不同，而有选择性的执行某些CSS代码，而忽略另外一些.
          1.作用：可以根据不用的媒体类型以及特性去执行不同的CSS
@@ -6816,14 +6810,14 @@
              3.尺寸类型取值：pc>992px
                          991px>pad>768px
                          phone<767px
-     4.@media用法:2种用法
+####4.@media用法:2种用法
          1.选择性执行css内容：
              @media screen and (min-width:768px) and (max-width:991px){样式规则1{}样式规则2{}}
          2.选择性执行某个外部css文件：
              <link rel="stylesheet" href="cs文件路径" media="MEDIA-TYPE and/not/only(MEDIA-FEATURE)">
                ex:<link  media="screen and (min-width:768px) and (max-width:991px)" rel="stylesheet" href="css/05.css">
              注意：即使不满足当前设备条件的css文件也会被请求，但不会生效
-     5.bootstrap：重点：bootstrap.css提供了上千个class，行为依赖于JS库-jQuery
+####5.bootstrap：重点：bootstrap.css提供了上千个class，行为依赖于JS库-jQuery
          1.5部分：
              1.起步-引入Bootstrap框架到网页中
                  1.<html lang="zh-cn">指定当前文档的基础语言zh-cn,zh-tw,jp,en
@@ -6859,7 +6853,7 @@
              1.引入bootlint.js，位置位于Bootstrap.js之后
              2.编写代码
              ... ...
-     9.Bootstrap第二步-全局css样式-按钮
+####6.Bootstrap第二步-全局css样式-按钮
          1.css reset
              *{box-sizing:border-box;}
          2.上千个class
@@ -7397,7 +7391,7 @@
                                        </ul>
                                    </div>
                                </div>
-         折叠效果：
+####17.折叠效果：
          class=.panel-collapse .collapse 可以放在panel-body和panel-footer外面，用panel-headding来做控制折叠效果
             ex:<div class="container">
                  <div class="panel">
@@ -7418,8 +7412,8 @@
      
                <div class="panel-group" id="pnl000">
                触发元素上加： data-parent="#pnl000"
-     ===================================================Bootstrap 定制 & Less================================================
-     1、Less语言
+###Bootstrap 定制 & Less
+####1、Less语言
      	官网：http://lesscss.org
      	中文网：http://less.bootcss.com
      	Less是一个 CSS预处理语言，它扩充了CSS，在静态的CSS基础上增加了一部分动态内容 如：变量，混合(Mixin),Less中完全支持和兼容CSS
@@ -7428,11 +7422,11 @@
      		1、编写 xx.less 文件
      		2、编写 xx.html , 引入 xx.less同时引入编译文件 less.js
      		3、浏览器在访问 xx.html 会自动下载 xx.less 和 less.js，然后在客户端进行编译
-     2、在服务器端编译 Less - 推荐
+####2、在服务器端编译 Less - 推荐
      		1、编写 xx.less
      		2、在服务器端搭建Less编译器，将 xx.less 编译成 xx.css
      		3、编写 xx.html 直接引入 xx.css 即可
-     3、搭建Less编译器 (乱点)lesscss.cn---官网
+####3、搭建Less编译器 (乱点)lesscss.cn---官网
      	Less编译器由JS进行编写的
      	1、安装独立的JS解释器 - NodeJS
      		命令行中：执行 node -v 结果为：0.12.4 或 4.4.7
@@ -7445,7 +7439,7 @@
      	4、在WebStorm中，配置FileWatchers(文件监视器)
      		由WS自动检测Less文件的编写与更改，自动进行编辑得到CSS
      		Ws-->File-->Settings-->Tools-->FileWatchers --> 添加 选择Less --> 指定 lessc.cmd文件地址即可
-     4、Less语法
+####4、Less语法
      	1、Less 完全支持 CSS语法
      	2、Less 支持单行注释 和 多行注释，只有多行注释能被编译到CSS中
      		单行：// 注释内容
@@ -7522,8 +7516,8 @@
      			xx.less 文件中
      				@import "xxx.less";
      
-     =======================================================Nodejs============================================================
-     1.概述:
+###Nodejs
+####1.概述:
          NODEJS不是JS,是一种服务器端技术，它竞争对手是php/jsp/asp.net
          官网:www.nodejs.org
          版本:0.12(16初) 4.x(16年中) 6.x(16年底)
@@ -7532,15 +7526,15 @@
          https://npm.taobao.org/mirrors/node----------阿里巴巴镜像网站
          ****************netstat -an  命令窗口查找是否监听端口被占用
          “' or 1=1 #”   “' or 1=1 :select into ”
-     2.JS和NODEJS区别
+####2.JS和NODEJS区别
          1.JS运行于客户端浏览中，存在兼容性问题;数据类型：值类型+引用类型(ES+DOM+BOM+自定义);
          2.NODEJS运行服务端(V8),不存在兼容性问题,数据类型:值类型+引用类型(ES+扩展对象+自定义);
              Current:最新版本
-     3.安装与使用
+####3.安装与使用
           node-v6.10.2-x64.msi  windows 64位
           node-v6.10.2-x86.msi  windows 32位
              鼠标右击->我的电脑->属性-> 64位
-     4.两种运行模式
+####4.两种运行模式
          1)交互模式--一般用于临时测试
                  REPL:输入一行代码执行一行--Read Evaluate Print Loop
                  操作步骤：
@@ -7549,7 +7543,7 @@
                 把要执行所有语句编写成一个文本文件，(后缀名任意,没有都行),一次性提交
                   node解释器执行
                   node  完整路径名/x.js 回车  -------ex:node e:/x.js
-     5.运算符
+####5.运算符
          算术运算符  +-*/。。。
          比较运算符  大于  小于。。。
          逻辑运算符  与 或 非
@@ -7557,16 +7551,16 @@
          三目运算符 ？：
          赋值运算符 += -= *= /=
          特殊运算符 .typeof（数据类型） .instanceof（实例化）
-     6.逻辑结构 if..else  switch..case
+####6.逻辑结构 if..else  switch..case
          循环结构：  while  do while  for  for of  for in
          选择结构：
-     7.通用小程序
+####7.通用小程序
          九九乘法表，100以内的质数，数组排序..
           练习:打印出100以内所有质数
           练习:7.js
-     8.函数和对象
-     9.常用的组件，第三方工具，框架
-     10.nodejs模块
+####8.函数和对象
+####9.常用的组件，第三方工具，框架
+####10.nodejs模块
          1.一个web项目功能可以分不同"模块",如商品模块，用户管理模块，支付模块，商家管理...
          2.nodejs按照功能把不同函数，对象分到不同文件/目录,nodejs模块 "Module" user product manager
          3.每个模块可以使用自己函数 require()
@@ -7801,7 +7795,7 @@
                  circle.perimeter(r)
                  rectange.size(w,h)
                  rectange.perimeter(w,h)
-     12.连接池
+####11.连接池
          为了提升数据库操作性能，nodejs提供完善功能连接池.
              1:创建连接池
                  var pool = mysql.createPool({...})
@@ -7830,14 +7824,14 @@
                      });
                    }
                  });
-     =================================================三大框架===============================================================
-     -----------------------------------------------------Vue----------------------------------------------------------------
-     错误集锦：
+##三大框架
+###Vue
+####错误集锦：
          1. Uncaught ReferenceError: Vue is not defined
            vue.js文件引入错误
          2. Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
             组件中缺少根标签
-     1. 认识框架
+####1. 认识框架
          (1) 什么是框架？
              一套解决问题的代码规范，主要应用于项目开发。
          (2) 框架和库的区别
@@ -7848,8 +7842,8 @@
              提高代码的可维护性
          (4) 常用的框架
              Vue     angular     react
-     2.Vue概述：
-         1.用于构建前端应用的渐进性JavaScript框架，采用的是M V V M的设计模式
+####2.Vue概述：
+#####1.用于构建前端应用的渐进性JavaScript框架，采用的是M V V M的设计模式
              (1) 优势
                  官方手册 https://cn.vuejs.org/
                  学习线路的相对平缓
@@ -7895,9 +7889,9 @@
                  M   -> model       模型(数据)
                  V   ->view         视图（界面）
                  VM  -> viewmodel  调度者(中间角色)
-         2. 插值表达式
+#####2. 插值表达式
              {{ expression }}
-         3. 指令:指令是一种特殊的标签属性，以v-开头
+#####3. 指令:指令是一种特殊的标签属性，以v-开头
              (1) 选择指令
                  v-if="expression"
                  v-else-if="expression"
@@ -8066,7 +8060,7 @@
                             }
                         });
                     </script>
-         4. 组件化
+#####4. 组件化
              组件是一个可以反复使用的，带有特定功能的视图,组件扩展了html的标签
              1.创建组件：
                  ①全局组件
@@ -8136,7 +8130,7 @@
                  ①组件的命名采用烤串命名的方法
          ********②模板中如果有多组标签，需要添加一个根标签（div, form..）
                  ③注册全局组件一定要写在vue实例化之前
-         5. v-if 和 v-show:两者都是用于控制显示与隐藏
+#####5. v-if 和 v-show:两者都是用于控制显示与隐藏
              v-if 如果是false，不会渲染到视图中
              v-show 如果是false，就会添加display:none;
              ex:<div id="app">
@@ -8215,7 +8209,7 @@
                 }
             });
         </script>
-         6. 自定义指令
+#####6. 自定义指令
              1.创建 Vue.directive('test', {
                      bind: function(el, bindings){
                          //el当前的dom元素，可以js操作
@@ -8296,7 +8290,7 @@
                         }
                     });
                 </script>
-         7. 过滤器（管道）
+#####7. 过滤器（管道）
              用于对数据进行筛选，整合，过滤等， 返回一个处理后的数据。
              过滤器的本质，就是一个方法。
              在Vue1.*含有自带的过滤器；
@@ -8359,7 +8353,7 @@
                                 }
                             });
                         </script>
-         8. 复合组件
+#####8. 复合组件
              在一个组件中嵌套其它的组件。
              1.回顾组件创建
                  Vue.component('my-com', {
@@ -8402,7 +8396,7 @@
                                 }
                             });
                         </script>
-         9. 生命周期函数
+#####9. 生命周期函数
              1.初始化 (beforeCreate / created)
                  created后，之后的钩子都可以获取到data中的数据
              2.挂载到视图（beforeMount / mounted）
@@ -8452,7 +8446,7 @@
                                  }
                              });
                             </script>
-         10. watch和 computed
+#####10. watch和 computed
              (1) watch 侦（监）听器，用于对数据进行侦听，前提是*结合双向数据绑定**
                  watch:{  msg: function(new,old){
                      // new 变化后的数据
@@ -8571,7 +8565,7 @@
                         		}
                         	});
                         </script>
-         11.组件之间的数据传递：
+#####11.组件之间的数据传递：
              1.父组件传递给子组件数据（父传子）
                   父组件 传递   <son pname="1"></son>
                   子组件 接收   props: [ 'pname' ]
@@ -8957,7 +8951,7 @@
                               }
                           });
                       </script>
-         12. 动画&过渡
+#####12. 动画&过渡
               transition: all 0.5s linear 0s;
               vue动画是需要结合着显示/隐藏
               1.默认的动画类名
@@ -9037,7 +9031,7 @@
                                }
                            });
                        </script>
-         13. 创建组件的其它方式
+#####13. 创建组件的其它方式
               (1)指定组件中的模板为外部的模板
                   创建:
                   <script type="text/x-template" id="mycom">
@@ -9149,7 +9143,7 @@
                          }
                      });
                  </script>
-         14.路由
+#####14.路由
               1. 路由是用来建立组件和路径之间的对应关系。
                   通过gmail页面
                          路径     组件
@@ -9396,33 +9390,34 @@
                               router: myRouter
                           });
                       </script>
-     -----------------------------------------------------angular------------------------------------------------------------
+###angular
      chrome
-     -----------------------------------------------------React--------------------------------------------------------------
+###React
      facebook
-####--------------------------------------------------------git------------------------------------------------------------
-#####1.修改用户信息
+###git
+
+####1.修改用户信息
          git config --global user.name "John Doe"
          git config --global user.email johndoe@example.com
-#####2.获取帮助
+####2.获取帮助
          git  --help
-#####3.获得config命令手册
+####3.获得config命令手册
          git help config
-#####4.克隆仓库
+####4.克隆仓库
          git clone https://github.com/ligit                 (直接克隆)
          git clone https:.......   myTest                   (对仓库重命名)
-#####5.查看当前文件状态
+####5.查看当前文件状态
          git  status
-#####6.添加内容到下一次提交中
+####6.添加内容到下一次提交中
          git add   +文件名
-#####7.状态简览
+####7.状态简览
          git status -s    (可以显示简图)
          ?? .idea/        (新添加未跟踪文件)
           M notes.txt     (文件被修改，但未放入暂存区)  M在右边
          M  notes.txt     (文件被修改，并放入了暂存区)  M在左边
          A  notes.txt     (新添加到暂存区的文件)
          MM notes.txt     (修改过的文件)
-#####8.gitignore
+####8.gitignore
          glob模式    shell使用的简化了的正则表达式
          1.所有空行或以#开头的行都会被git忽略
          2.可使用标准glob模式匹配
@@ -9433,54 +9428,7 @@
          7.[abc]匹配任何一个列在方括号里的字符
          8.？只匹配一个任意字符，如果在方括号中使用短划线分割两个字符，表示所有在这两个字符范围内的都可以匹配、
          9.** 两个星，匹配任意中间目录
-#####9.提交已add过的文件===phpstorm中的ctrl+k
+####9.提交已add过的文件===phpstorm中的ctrl+k
          git commit -m "..."        (引号中为提交的信息)
          [master ]
-     
-     
-     
-     
-     
-     
-     
-     --------------------------------------------------------备忘------------------------------------------------------------
-     1.api参数写成对象形势
-     2.命名形式
-     3.git的操作
-     4.注释的写法
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
 
-#####提交
-ghijkgghjk
-
-```
-console.log("dsagdsa")
-```
