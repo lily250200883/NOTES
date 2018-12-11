@@ -9397,38 +9397,65 @@
 ###git
 
 ####1.修改用户信息
-         git config --global user.name "John Doe"
-         git config --global user.email johndoe@example.com
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
 ####2.获取帮助
-         git  --help
+    git  --help
 ####3.获得config命令手册
-         git help config
+    git help config
 ####4.克隆仓库
-         git clone https://github.com/ligit                 (直接克隆)
-         git clone https:.......   myTest                   (对仓库重命名)
+    git clone https://github.com/ligit                 (直接克隆)
+    git clone https:.......   myTest                   (对仓库重命名)
 ####5.查看当前文件状态
-         git  status
+    git  status
 ####6.添加内容到下一次提交中
-         git add   +文件名
+    git add   +文件名
 ####7.状态简览
-         git status -s    (可以显示简图)
-         ?? .idea/        (新添加未跟踪文件)
-          M notes.txt     (文件被修改，但未放入暂存区)  M在右边
-         M  notes.txt     (文件被修改，并放入了暂存区)  M在左边
-         A  notes.txt     (新添加到暂存区的文件)
-         MM notes.txt     (修改过的文件)
+     git status -s    (可以显示简图)
+     ?? .idea/        (新添加未跟踪文件)
+      M notes.txt     (文件被修改，但未放入暂存区)  M在右边
+     M  notes.txt     (文件被修改，并放入了暂存区)  M在左边
+     A  notes.txt     (新添加到暂存区的文件)
+     MM notes.txt     (修改过的文件)
 ####8.gitignore
-         glob模式    shell使用的简化了的正则表达式
-         1.所有空行或以#开头的行都会被git忽略
-         2.可使用标准glob模式匹配
-         3.匹配模式可以用./开头，防止递归
-         4.匹配模式以/结尾指定目录
-         5.要忽略指定模式以外的文件或目录，可在模式前加上！取反
-         6.* 匹配0个或者多个任意字符
-         7.[abc]匹配任何一个列在方括号里的字符
-         8.？只匹配一个任意字符，如果在方括号中使用短划线分割两个字符，表示所有在这两个字符范围内的都可以匹配、
-         9.** 两个星，匹配任意中间目录
-####9.提交已add过的文件===phpstorm中的ctrl+k
-         git commit -m "..."        (引号中为提交的信息)
-         [master ]
+    glob模式    shell使用的简化了的正则表达式
+    1.所有空行或以#开头的行都会被git忽略
+    2.可使用标准glob模式匹配
+    3.匹配模式可以用./开头，防止递归
+    4.匹配模式以/结尾指定目录
+    5.要忽略指定模式以外的文件或目录，可在模式前加上！取反
+    6.* 匹配0个或者多个任意字符
+    7.[abc]匹配任何一个列在方括号里的字符
+    8.？只匹配一个任意字符，如果在方括号中使用短划线分割两个字符，表示所有在这两个字符范围内的都可以匹配、
+    9.** 两个星，匹配任意中间目录
+####9.提交
+    1.提交已add过的文件===phpstorm中的ctrl+k
+        git commit -m "..."        (引号中为提交的信息)
+        [master 463dc4f]
+            |        |
+            |        |
+        提交的分支   SHA-1校验和
+    2.跳过add直接提交
+        git commit -a
+    3.对上次提交过的东西做修改
+        git commit --amand   (进入后，编辑器呈不可编辑状态，输入小写c，编辑完成后，按ESC退出，输入两个大写Z，即可覆盖上次提交内容)
+####10.移除
+    1.删除文件，如果已追踪过未提交文件删除不了
+        git rm
+    2.强制删除已被追踪过的文件
+        git rm -f
+    3.适用于已提交的文件放弃暂存，回退到未添加的追踪状态
+        git rm --cached  +文件名
+    4.git rm 命令后面可以列出文件或者目录的名字，也可以使用 glob 模式
+        git rm log/\*.log
+####11.重命名文件
+    git mv README readme.md     (将README重命名为readme.md)
+####12.打印更新日志
+    1.最近2次提交的内容差异
+        git  log -p -2
+    2.概要式日志
+        git log  --stat
+    3.一行内显示概要日志
+        git log --pretty=oneline
+    
 
