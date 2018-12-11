@@ -1,4 +1,5 @@
-#####1、预习课程：http://www.tmooc.cn/web/login.html 账号：web1702n_pm@tedu.cn 密码：PM2017tarena
+#####1、其他
+        预习课程：http://www.tmooc.cn/web/login.html 账号：web1702n_pm@tedu.cn 密码：PM2017tarena
         下载作业网址：code.tarena.com.cn 用户名：tarenacode 密码：code_2013 WEBCode/wfd1702/AM/PM/ALL
         web服务器=Apache
         PHP100自学视频：https://pan.baidu.com/share/link?shareid=3623474815&uk=171029850
